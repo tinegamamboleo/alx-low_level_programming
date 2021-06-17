@@ -1,1 +1,1 @@
-This directory contains c programming basics
+This directory contains c programming basics.
