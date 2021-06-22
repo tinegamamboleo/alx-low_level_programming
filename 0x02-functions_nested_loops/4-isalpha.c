@@ -1,22 +1,15 @@
 #include "holberton.h"
-
 /**
- * _isalpha - Shows 1 if the input is a
- * letter Another cases, shows 0
- *
- * @c: The character in ASCII code
- *
- * Return: 1 for letters. 0 for the rest.
+ * _isalpha - tests whether a character is a letter
+ * lowercase letter from the English alphabet.
+ * @c: character to test.
+ * Return: 1 if it is a lowercase letter, 0 if it is not a lowercase letter.
  */
 int _isalpha(int c)
 {
-	if ((c >= 97 && c <= 122) || (c >= 65 && c <= 90))
-	{
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 		return (1);
-	}
 	else
-	{
 		return (0);
-	}
-	_putchar('\n');
+
 }
